@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="APIRestCallsTests.GETCallTest">
+      <class name="SeleniumSessionsUsingTestNG.StaleElementExceptionTest">
         <methods>
-          <include name="getTestData"/>
+          <include name="StaleElementErrTest"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- APIRestCallsTests.GETCallTest -->
+      </class> <!-- SeleniumSessionsUsingTestNG.StaleElementExceptionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
